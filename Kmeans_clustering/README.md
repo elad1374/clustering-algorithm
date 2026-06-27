@@ -27,3 +27,6 @@ pip install numpy pandas
 
 # Build the Python C extension
 python setup.py build_ext --inplace
+
+# Execution Syntax
+python kmeanspp.py <K> [max_iter] <epsilon> <file1.csv> <file2.csv>
