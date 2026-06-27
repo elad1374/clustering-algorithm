@@ -24,3 +24,6 @@ The project strategically splits the computational workload: Python handles data
 Ensure your environment contains the Python C development headers and required data libraries:
 ```bash
 pip install numpy pandas
+
+# Build the Python C extension
+python setup.py build_ext --inplace

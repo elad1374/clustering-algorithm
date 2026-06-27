@@ -55,3 +55,5 @@ python symnmf.py 3 symnmf sample_data.txt
 # Performance Analysis
 python analysis.py 3 sample_data.txt
 
+# Execution Syntax
+python kmeanspp.py <K> [max_iter] <epsilon> <file1.csv> <file2.csv>
